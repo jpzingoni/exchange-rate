@@ -1,0 +1,56 @@
+html, body{
+    min-height: 100vh;
+}
+
+body{
+    position: relative;
+    padding-bottom: 3.1em;
+}
+
+.logo{
+    padding: 0px;
+    width: 62px;
+}
+
+nav{
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+    padding: 10px;
+    color:darkgray
+}
+
+.contenedor-monedas{
+    width: 20%;
+    border: 2px solid black ;
+    border-radius: 10px;
+}
+
+.total-monedas{
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+#lista-monedas{
+    display: none;
+}
+
+#mensaje-alerta{
+    display: none;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    padding: 1em 0;
+    width: 100%;
+    text-align: center;
+}
+
+#grupo-monedas{
+    max-height: 100px;
+    overflow-y: auto;
+}
