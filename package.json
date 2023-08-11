@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.0"
+  },
+  "name": "exchange-rate",
+  "version": "1.0.0",
+  "description": "Miniapp para conocer el tipo de cambio del dolar y el euro, tanto blue como oficial",
+  "main": "/src/index.html",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tipo-de-cambio",
+    "dolar",
+    "euro"
+  ],
+  "author": "tbw",
+  "license": "ISC"
+}
